@@ -64,16 +64,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function init() {
     var myMap = new ymaps.Map("contacts__map", {
-      center: [55.75846806898367, 37.60108849999989],
-      zoom: 16,
+      center: [55.558468554488, 37.604455377],
+      zoom: 14,
     });
 
     var myPlacemark = new ymaps.Placemark(
-      [55.75846806898367, 37.60108849999989],
+      [55.558468554488, 37.604455377],
       {},
       {
         iconLayout: "default#image",
-        iconImageHref: "../images/icons/group.svg",
+        iconImageHref: "../images/icons/hover-bg.svg",
         iconImageSize: [20, 20],
         iconImageOffset: [-3, -42],
       }
